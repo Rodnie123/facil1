@@ -19,11 +19,13 @@
 }
 
 .form-wrapper {
-	position: relative;height: 1030px;width: 60%;background-color: white;
-						-webkit-box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
-						-moz-box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
-						box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
-						border: 1px solid rgba(0,0,0,.125);
+	position: relative;
+	height: 1030px;
+	background-color: white;
+	-webkit-box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
+	-moz-box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
+	box-shadow: -2px -5px 11px -2px rgba(0,0,0,0.23);
+	border: 1px solid rgba(0,0,0,.125);
 }
 .w-full {
 	width: 100%;
@@ -45,17 +47,14 @@
 .flex {
 	display: flex
 }
-@media (min-width: 200px) and (max-width: 768) {
+
+
+/*@media (min-width: 200px) and (max-width: 768) {
 
   .form-wrapper {
   	width: 80% !important;
   }
-}
-
-.app_stores {
-	padding: 0;
-}
-}
+}*/
 
 /*@media (min-width: 200px) and (max-width: 1024px) {
 
@@ -73,13 +72,13 @@
 	text-transform: uppercase;
 	color: white;
 	font-weight: bold;
-}*/
+}
 
 .app_stores {
 	padding: 0;
 }
 }
-
+*/
 @media only screen and (min-width: 1200px) {
     /* styles for wide screens */\
     nav {
