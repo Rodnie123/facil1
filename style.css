@@ -17,6 +17,9 @@
 .h-100vh {
 	height: 100vh
 }
+.h-full {
+	height: 100%;
+}
 
 .form-wrapper {
 	position: relative;
@@ -32,8 +35,10 @@
 }
 
 .banner {
-	background-image: url(BG.png);
-	background-repeat: no-repeat;
+	position: absolute;
+	z-index: -4;
+	/*background-image: url(BG.png);*/
+	/*background-repeat: no-repeat;*/
 	
 }
 .logo {
@@ -41,8 +46,8 @@
 }
 
 .green {
-	background-image: url('green1.png');
-	background-repeat: no-repeat;
+	position: absolute;
+	z-index: -4;
 }
 
 .flex {
